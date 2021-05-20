@@ -1,0 +1,108 @@
+.fbg {
+    background-color: rgba(0,0,0,0.15);
+    margin:0px;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+}
+body {
+    font-size:20px;
+    background-image:url("../images/have-it-all.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+h2 {
+    font-size: 50px;
+    color:white;
+    text-shadow:2px 2px 3px black;
+    text-align: center;
+    margin:0px 20px 30px 20px;
+}
+h3 {
+    margin-top:20px;
+    margin-bottom:0px;
+    font-size: 45px;
+    color:red;
+    text-shadow:2px 2px 2px black;
+    text-align: center;
+}
+.set {
+    display:flex;
+    justify-content:space-evenly;
+    margin:10px;
+}
+.sm {
+    display:flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items:center;
+    padding:20px;
+}
+img {
+    width:150px;
+    height:150px;
+    margin-bottom:10px;
+}
+img[src="pptlogo.png"] {
+    width:100px;
+    height:100px;
+    margin-bottom:10px;
+}
+#books a {
+    color:white;
+    font-size: 23px;
+    text-align:center;
+    text-decoration:none;
+    background-color:#008cba;
+    border-radius:30px;
+    width:300px;
+    padding:10px;
+}
+#books a:hover {
+    background-color:lightblue;
+    color:black;
+}
+#ppts a {
+    color:white;
+    font-size: 23px;
+    text-align:center;
+    text-decoration:none;
+    background-color:#24a0ed;
+    border-radius:30px;
+    width:250px;
+    padding:10px;
+}
+#ppts a:hover {
+    background-color:lightblue;
+    color:black;
+}
+a {
+    color:#5bee3c;
+    text-decoration:none;
+}
+a:hover {
+    text-shadow:2px 2px 30px black;
+    text-decoration:underline;
+}
+ol {
+list-style:none;
+}
+ol {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding:10px;
+    font-size:25px;
+    font-weight: bold;
+}
+li {
+    color:white;
+    justify-content:space-evenly;
+    font-size:30px;
+    margin-bottom:10px;
+    padding:10px;
+}

@@ -1,0 +1,64 @@
+.fbg {
+    background-color:rgba(0,0,0,0.15);
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+body {
+    margin:0px;
+    background-image:url("../images/have-it-all2.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+p {
+    margin-top: 30px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+a {
+    color: white;
+    box-shadow: 2px 2px 1px white;
+    padding: 10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    display: block;
+    border: 1px solid white;
+    text-decoration: none;
+    width: 170px;
+}
+#i1 {
+    background-color: #24a0ed;
+}
+#i1:hover {
+    background-color:blue;
+}
+#i2 {
+    background-color: #56b85c;
+}
+#i2:hover {
+    background-color: green;
+}
+#i3 {
+    background-color: #d9534f;
+}
+#i3:hover {
+    background-color: red;
+}
+#i4 {
+    background-color: #7f00ff;
+}
+#i4:hover {
+    background-color: purple;
+}
+#i5 {
+    background-color: #d0bd20;
+}
+#i5:hover {
+    background-color: orange;
+}

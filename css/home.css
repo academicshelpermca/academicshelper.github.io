@@ -1,0 +1,142 @@
+h1{
+    text-align: center;
+    font-size:60px;
+    font-family: 'Pattaya', sans-serif;
+    text-shadow:2px 3px 20px white;
+    margin:10px;
+}
+#h{
+    text-align: center;
+    font-size:45px;
+    text-shadow:2px 3px 18px black;
+    color:#8b00ff;
+}
+h2{
+    text-align: center;
+    font-size:45px;
+    /* text-shadow:2px 3px 18px black; */
+    color:#1438fa;
+}
+h3{
+    text-align: center;
+    font-size:40px;
+    color:#ff3c00;
+}
+p{
+    font-style:italic;
+    padding:10px 50px;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    /* background-image:url("nav-bg.png"); */
+    background-image:url("../images/have-it-all.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.nav{
+    border:1px solid black;
+    box-shadow: 2px 3px 10px black;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+.navbar li {
+    display: inline-block;
+    text-align:center;
+}
+
+.navbar li a {
+    font-size: 27px;
+    font-weight:bold;
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    text-shadow:2px 3px 25px white;
+}
+
+.navbar li a:hover {
+    color: white;
+    background-color:black;
+}
+
+.section {
+    padding:0px 50px;
+}
+.sec{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow: row;
+    
+}
+.sec li{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    padding:34px 23px;
+    border:2px solid rgb(67, 77, 67);
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+    margin:10px 25px;
+    box-shadow: 2px 3px 18px black;
+    text-align: center;
+    text-shadow: 2px 3px 112px white;
+}
+.container{
+    background-color:rgba(0,0,0,0.10);
+    position:relative;
+    right:0;
+    left:0;
+    bottom:0;
+    margin-bottom:30px;
+}
+.section a{
+    color:black;
+    text-shadow: 2px 3px 30px white;
+}
+.section span{
+    color:rgb(0, 255, 255);
+}
+#p{
+    /* border:2px solid rgb(67, 77, 67); */
+    font-size:35px;
+    /* box-shadow:2px 3px 20px black; */
+    /* box-shadow: 2px 3px 18px black; */
+}
+.footer{
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    color:white;
+    background:black;
+    text-align:center;
+    font-size:24px;
+}
+
+p a {
+    color:lightblue;
+}
+p a:hover {
+    background-color:black;
+}
+#int {
+    color:black;
+    background-color:white;
+    border-radius:10px;
+}
+#int a {
+    color:blue;
+    text-decoration:none;
+}
+#int a:hover {
+    background-color:white;
+    text-decoration:underline;
+}

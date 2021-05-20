@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    font-size:60px;
+    font-family: 'Pattaya', sans-serif;
+    text-shadow:2px 3px 20px white;
+    margin:10px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image:url("../images/have-it-all1.jpg");
+    background-size:100%; 
+}
+.nav {
+    color:black;
+    width:100%;
+    border:1px solid black;
+    box-shadow: 2px 3px 10px black;
+}
+.navbar {
+    display:flex;
+    justify-content:space-between;
+}
+.navbar li {
+    font-size: 27px;
+    display:inline-block;
+}
+
+.navbar li a {
+    font-size: 27px;
+    font-weight:bold;
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    text-shadow:2px 3px 25px white;
+}
+
+.navbar li a:hover {
+    color: white;
+    background-color:black;
+}
+.container {
+    background-size: cover;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:200px;
+}

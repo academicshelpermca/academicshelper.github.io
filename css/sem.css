@@ -1,0 +1,114 @@
+h1{
+    text-align: center;
+    font-size:60px;
+    font-family: 'Pattaya', sans-serif;
+    text-shadow:2px 3px 20px white;
+    margin:10px;
+}
+.nav{
+    border:1px solid black;
+    box-shadow: 2px 3px 10px black;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+.navbar li {
+    display:inline-block;
+}
+.navbar li a {
+    font-size: 27px;
+    font-weight:bold;
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    text-shadow:2px 3px 25px white;
+}
+.navbar li a:hover {
+    color: white;
+    background-color:black;
+}
+.fbg {
+    background-color: rgba(0,0,0,0.10);
+    left:0;
+    right:0;
+}
+body {
+    margin:0px;
+    font-size:20px;
+    background-image:url("../images/have-it-all.jpg");
+	background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+h2 {
+    text-align: center;
+    margin: 20px;
+    font-size: 60px;
+    color:#24a0ed;
+    text-shadow:2px 2px 3px black;
+    text-align: center;
+    margin:20px;
+}
+.set {
+    margin:20px 20px 30px 20px;
+    display:flex;
+    justify-content:space-evenly;
+    font-size: 25px;
+    font-weight: bold;
+    padding:20px;
+}
+.sm {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.tb {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:0px;
+}
+p {
+    color: #56b85c;
+    font-size:45px;
+    font-weight:bold;
+    text-shadow:2px 2px 2px black;
+}
+img {
+    color:blue;
+    width:200px;
+    height:150px;
+}
+a {
+    color:white;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight:12px;
+}
+button {
+    margin:20px;
+    border:2px solid lightgrey;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:bold;
+	padding:15px 20px;
+	background-color:rgba(0,0,0,0.0);
+	color:white;
+    box-shadow:3px 3px 15px black;
+    width:400px;
+}
+button:hover {
+    cursor:pointer;
+    background-color:black;
+}
+.footer {
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    color:white;
+    background:black;
+    text-align:center;
+    font-size:24px;
+}
