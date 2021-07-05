@@ -1,5 +1,5 @@
 # academicshelpermca.github.io
-DevJam 2021 Web Development Project
+Web Development Project
 
 Project Name : Academics Helper
 
